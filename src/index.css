@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 140%;
+    }
+}
+
+/* @media screen and (max-width: 1024px) and (min-height: 960px) {
+    
+}
+
+@media screen and (max-width: 760px) {
+    
+}
+
+@media screen and (max-width: 620px) {
+    
+}
+
+@media screen and (max-width:350px) {
+    
+} */
+
+
+/* Background */
+
+
+.main-bg {
+    background: url(/assets/bg-lptp.svg) center/cover no-repeat;
+}
+
+/* @media screen and (max-width: 1040px) {
+    .main-bg {
+        background: url(./assets/hero-bg-tab-hor.svg) center/cover no-repeat;
+    }
+} */
+
+@media screen and (max-width: 1024px) and (min-height: 960px) {
+    .main-bg {
+        background: url(/assets/bg-tab.svg) center/cover no-repeat;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .main-bg {
+        background: url(/assets/bg-phn.svg) center/cover no-repeat;
+    }
+}
+
+/* @media screen and (max-width:350px) {
+    .main-bg {
+        background: url(/assets/bg-phn.svg) center/cover no-repeat;
+    }
+} */
