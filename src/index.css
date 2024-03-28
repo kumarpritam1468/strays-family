@@ -2,16 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-a{
+body{
+    overflow-x: hidden;
+}
+
+a {
     font-weight: 600;
 }
+
+.shdw{
+    filter: drop-shadow(.5rem .5rem 1rem rgba(0, 0, 0, 0.527));
+}
+
+
+.btn1 {
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    padding: .5rem 0;
+    width: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: 1.5px solid black;
+    box-shadow: .3rem .3rem 1.5rem #F8AB27;
+    border-radius: 2rem;
+    display: block;
+    font-weight: 600;
+}
+
+.btn1:hover {
+    background-position: right center;
+    cursor: pointer;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn2 {
+    background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+    padding: .5rem 0;
+    cursor: pointer;
+    width: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: .5rem .5rem 1.5rem rgba(0, 0, 0, 0.71);
+    border: 1.5px solid transparent;
+    border-radius: 2rem;
+    display: block;
+}
+
+.btn2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 1440px) {
     html {
