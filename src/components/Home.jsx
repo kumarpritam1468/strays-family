@@ -20,7 +20,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="heroImg overflow-hidden rounded-3xl w-[21rem] lg:w-full lg:absolute lg:bottom-0 lg:left-[55%] z-10">
-                    <img src="/assets/hero-dog2.png" alt="" className='shdw lg:w-[40vw]' />
+                    <img src="/assets/hero-dog.png" alt="" className='shdw lg:w-[40vw]' />
                 </div>
             </section>
         </>
