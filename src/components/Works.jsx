@@ -7,7 +7,7 @@ const Works = () => {
             <h1 className=' font-bold text-4xl'>Our Work Gallery</h1>
             <div className=' flex flex-col gap-6 justify-center items-center lg:flex-row'>
                 {images.map((item, index) => (
-                    <div className=' flex p-3 pb-5 bg-sec-yellow rounded-md flex-col gap-5 w-[92%] lg:w-[30%] items-center border-2 border-main-yellow' key={index}>
+                    <div className=' flex p-3 pb-5 bg-sec-yellow rounded-md flex-col gap-5 w-[92%] lg:w-[30%] items-center border-2 border-main-yellow hover:shadow-[0_0_1.5rem] hover:shadow-main-yellow transition-all duration-300 ease-in-out' key={index}>
                         <img src={item.imgUrl} alt="" />
                         <h1 className=' text-2xl font-bold text-center'>{item.text}</h1>
                     </div>

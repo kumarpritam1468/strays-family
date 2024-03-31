@@ -16,3 +16,18 @@ export const images = [
         text:'Saying goodbye'
     },
 ]
+
+export const donateImages = [
+    {
+        imgUrl:'/assets/donate1.jpg',
+        text:'Donate for the food of the strays'
+    },
+    {
+        imgUrl:'/assets/donate2.jpg',
+        text:'Donate for the treatment'
+    },
+    {
+        imgUrl:'/assets/donate3.jpg',
+        text:'Make a general Donation'
+    },
+]

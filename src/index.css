@@ -25,6 +25,14 @@ a {
     filter: drop-shadow(.5rem .5rem 1rem rgba(0, 0, 0, 0.527));
 }
 
+.donate-img{
+    transition: all .3s ease-in-out;
+}
+
+.donate-card:hover .donate-img {
+    transform: scale(1.1);
+}
+
 
 .btn1 {
     background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);

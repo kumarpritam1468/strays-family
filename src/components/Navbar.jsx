@@ -12,9 +12,9 @@ const Navbar = () => {
 
             <div className=" max-lg:hidden flex items-center gap-2">
                 <a href="#works" className=' px-4 py-1 bg-transparent hover:bg-black hover:text-white rounded-3xl cursor-pointer transition-all duration-300'>Our Works</a>
-                <a href="" className=' px-4 py-1 bg-transparent hover:bg-black hover:text-white rounded-3xl cursor-pointer transition-all duration-300'>About Us</a>
-                <a href="" className=' px-4 py-1 bg-transparent hover:bg-black hover:text-white rounded-3xl cursor-pointer transition-all duration-300'>Contact Us</a>
-                <a href="" className=' bg-black px-4 py-1 rounded-3xl text-white'>Donate</a>
+                <a href="#about" className=' px-4 py-1 bg-transparent hover:bg-black hover:text-white rounded-3xl cursor-pointer transition-all duration-300'>About Us</a>
+                <a href="#contact" className=' px-4 py-1 bg-transparent hover:bg-black hover:text-white rounded-3xl cursor-pointer transition-all duration-300'>Contact Us</a>
+                <a href="#donate" className=' bg-black px-4 py-1 rounded-3xl text-white'>Donate</a>
             </div>
 
             <div className=' text-2xl lg:hidden cursor-pointer' onClick={()=>setMenuActive(!menuActive)}>
