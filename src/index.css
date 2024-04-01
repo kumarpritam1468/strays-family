@@ -33,6 +33,14 @@ a {
     transform: scale(1.1);
 }
 
+.doggy{
+    transition: all 1s ease-in-out;
+}
+
+#contact:hover .doggy{
+    right: 0;
+}
+
 
 .btn1 {
     background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);

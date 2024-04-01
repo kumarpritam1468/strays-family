@@ -31,3 +31,30 @@ export const donateImages = [
         text:'Make a general Donation'
     },
 ]
+
+export const contact = [
+    {
+        icon:"FaPhone",
+        type:"Call",
+        data:"0123456789",
+        buttonText:"Call Now!"
+    },
+    {
+        icon:"RiMessage3Fill",
+        type:"Message",
+        data:"0123456789",
+        buttonText:"Text Now!"
+    },
+    {
+        icon:"BsWhatsapp",
+        type:"Whatsapp",
+        data:"0123456789",
+        buttonText:"Chat Now!"
+    },
+    {
+        icon:"IoMdMail",
+        type:"E-mail",
+        data:"0123456789",
+        buttonText:"Mail Now!"
+    },
+]
