@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 const Home = () => {
     return (
         <>
-            <Navbar />
             <section className='main-bg h-[90vh] flex flex-col-reverse lg:flex-row px-6 py-4 pb-20 lg:py-0 lg:px-16 gap-4 lg:gap-10 justify-center lg:justify-between items-center'>
                 <div className="heroText text-center lg:text-left flex gap-4 lg:gap-8 flex-col items-center lg:items-start lg:w-[50vw]">
                     <p className=' max-lg:hidden font-bold text-2xl'>StraysFamily Foundation</p>

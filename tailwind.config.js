@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         'main-yellow':'#F8AB27',
-        'sec-yellow':'#FFE9CB'
+        'sec-yellow':'#FFE9CB',
+        'mid-yellow':'#FFBF64'
       }
     },
   },
